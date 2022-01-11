@@ -1,0 +1,18 @@
+nav {
+  background-color: var(--primary-color);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link.active-link {
+  color: #000;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+}

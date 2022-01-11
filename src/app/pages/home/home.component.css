@@ -1,0 +1,130 @@
+.banner {
+  background-image: url("../../../assets/image/banner.jpg");
+  height: 600px;
+  background-position: center top;
+  background-size: cover;
+}
+
+.content {
+  top: 30%;
+  left: 17%;
+  position: absolute;
+}
+
+.content > h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.content > a {
+  background-color: #fff;
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.content > a:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+}
+
+.stepBox {
+  background-color: rgb(0, 0, 0, 0.6);
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.stepBox > h1 {
+  color: var(--primary-color);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.stepBox > p {
+  font-size: 20px;
+  font-style: italic;
+  color: #fff;
+}
+
+.box1 {
+  background-image: url("../../../assets/image/img1.jpeg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.box2 {
+  background-image: url("../../../assets/image/img2.jpeg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.box3 {
+  background-image: url("../../../assets/image/img3.jpeg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.foodBox > img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.foodBox > h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.viewmore {
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--primary-color);
+  padding: 10px 10px;
+  font-size: 18px;
+}
+
+.viewmore:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    top: 25%;
+    left: 15%;
+  }
+
+  .stepBox {
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner {
+    height: 700px;
+  }
+
+  .content {
+    top: 30%;
+    left: 10%;
+  }
+
+  .content > h1 {
+    font-size: 40px;
+  }
+
+  .header {
+    font-size: 26px;
+  }
+
+  .stepBox {
+    height: 120px;
+  }
+}

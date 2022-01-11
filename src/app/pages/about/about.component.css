@@ -1,0 +1,12 @@
+.banner {
+  background-image: url("../../../assets/image/about-us.jpeg");
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.banner > h1 {
+  color: #fff;
+  position: relative;
+  top: 40%;
+}
